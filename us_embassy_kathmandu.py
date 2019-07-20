@@ -32,7 +32,7 @@ for item in url:
 browser.close() # browser exit
 
 # write lists to csv file
-with open('us_embassy_kathmandu.csv', 'w') as f:
+with open('data/us_embassy_kathmandu.csv', 'w') as f:
     writer = csv.writer(f)
     writer.writerows(zip(d_name, d_url))
 
